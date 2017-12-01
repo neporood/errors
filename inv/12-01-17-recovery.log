@@ -1,0 +1,657 @@
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+Starting TWRP 3.1.1-1-477da645 on Fri Apr 10 19:57:16 1970
+ (pid 437)
+I:Lun file '/sys/class/android_usb/android0/f_mass_storage/lun0/file' does not exist, USB storage mode disabled
+TW_INCLUDE_CRYPTO := true
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:Got max brightness 255 from '/sys/class/leds/lcd-backlight/max_brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:LANG: en
+I:AB_OTA_UPDATER := true
+Starting the UI...
+setting DRM_FORMAT_RGB565 and GGL_PIXEL_FORMAT_RGB_565
+cannot find/open a drm device: No such file or directory
+fb0 reports (possibly inaccurate):
+  vi.bits_per_pixel = 32
+  vi.red.offset   =   0   .length =   8
+  vi.green.offset =   8   .length =   8
+  vi.blue.offset  =  16   .length =   8
+setting GGL_PIXEL_FORMAT_RGBA_8888
+double buffered
+framebuffer: 0 (1440 x 2560)
+Using fbdev graphics.
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.333333x and height 1.333333x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page splash
+I:Switching packages (splash)
+=> Linking mtab
+=> Processing recovery.fstab
+I:Processing '/boot'
+I:Processing '/system'
+I:Processing '/system_image'
+I:Processing '/vendor'
+I:Processing '/vendor_image'
+I:Processing '/data'
+I:Processing '/misc'
+I:Processing '/efs1'
+I:Processing '/efs2'
+I:Processing '/usb-otg'
+I:Created '/usb-otg' folder.
+I:File Based Encryption is present
+keyname is ext4:d745d022df6cf07c
+Added key 837968308 (ext4:d745d022df6cf07c) to keyring 921353762 in process 437
+Preparing: /data/misc/vold/user_keys
+Preparing: /data/misc/vold/user_keys/ce
+Preparing: /data/misc/vold/user_keys/de
+get_de_key_path 0 /data/misc/vold/user_keys/de/0
+Skipping non-de-key .Skipping non-de-key ..keyname is ext4:705b4144482a83ee
+Added key 421084584 (ext4:705b4144482a83ee) to keyring 921353762 in process 437
+Installed de key for user 0Preparing: /data/system/users/0
+Preparing: /data/misc/profiles/cur/0
+Preparing: /data/misc/profiles/cur/0/foreign-dex
+Preparing: /data/system_de/0
+Preparing: /data/misc_de/0
+Preparing: /data/user_de/0
+ensure_policy '/data/system_de/0'
+ensure_policy '/data/misc_de/0'
+ensure_policy '/data/user_de/0'
+I:Using automatic handling for /data/media emulated storage device.
+I:Setting up '/data' as data/media emulated storage.
+I:Backup folder set to '/data/media/0/TWRP/BACKUPS/HT69D0203779'
+I:Settings storage is '/data/media/0'
+Updating partition details...
+I:mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:Data backup size is 7MB, free: 94096MB.
+I:Unable to mount '/usb-otg'
+I:Actual block device: '', current file system: 'vfat'
+...done
+I:mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:Unmounting main partitions...
+
+
+Partition Logs:
+/boot | /dev/block/bootdevice/by-name/boot_a | Size: 32MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/bootdevice/by-name/boot
+   Display_Name: Boot
+   Storage_Name: boot
+   Backup_Path: /boot
+   Backup_Name: boot
+   Backup_Display_Name: Boot
+   Storage_Path: /boot
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/system | /dev/block/bootdevice/by-name/system_a | Size: 1952MB Used: 893MB Free: 1059MB Backup Size: 893MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_Available_in_GUI IsPresent SlotSelect 
+   Primary_Block_Device: /dev/block/bootdevice/by-name/system
+   Display_Name: System
+   Storage_Name: System
+   Backup_Path: /system
+   Backup_Name: system
+   Backup_Display_Name: System
+   Storage_Path: /system
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/system_image | /dev/block/bootdevice/by-name/system_a | Size: 2048MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/bootdevice/by-name/system
+   Display_Name: System Image
+   Storage_Name: system_image
+   Backup_Path: /system_image
+   Backup_Name: system_image
+   Backup_Display_Name: System Image
+   Storage_Path: /system_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/vendor | /dev/block/bootdevice/by-name/vendor_a | Size: 270MB Used: 23MB Free: 246MB Backup Size: 23MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up IsPresent SlotSelect 
+   Primary_Block_Device: /dev/block/bootdevice/by-name/vendor
+   Display_Name: Vendor
+   Storage_Name: Vendor
+   Backup_Path: /vendor
+   Backup_Name: vendor
+   Backup_Display_Name: Vendor
+   Storage_Path: /vendor
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/vendor_image | /dev/block/bootdevice/by-name/vendor_a | Size: 300MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img SlotSelect 
+   Primary_Block_Device: /dev/block/bootdevice/by-name/vendor
+   Display_Name: Vendor Image
+   Storage_Name: vendor_image
+   Backup_Path: /vendor_image
+   Backup_Name: vendor_image
+   Backup_Display_Name: Vendor Image
+   Storage_Path: /vendor_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/data | /dev/block/sda35 | Size: 114988MB Used: 7MB Free: 94096MB Backup Size: 7MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent Can_Be_Encrypted Is_Encrypted Has_Data_Media Can_Encrypt_Backup Use_Userdata_Encryption Is_Storage Is_Settings_Storage 
+   Symlink_Path: /data/media/0
+   Symlink_Mount_Point: /sdcard
+   Primary_Block_Device: /dev/block/sda35
+   Display_Name: Data
+   Storage_Name: Internal Storage
+   Backup_Path: /data
+   Backup_Name: data
+   Backup_Display_Name: Data
+   Storage_Path: /data/media/0
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+   MTP_Storage_ID: 65538
+
+/misc | /dev/block/sdd1 | Size: 1MB
+   Flags: IsPresent 
+   Primary_Block_Device: /dev/block/sdd1
+   Display_Name: misc
+   Storage_Name: misc
+   Backup_Path: /misc
+   Backup_Name: misc
+   Backup_Display_Name: misc
+   Storage_Path: /misc
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/efs1 | /dev/block/sdd9 | Size: 2MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent 
+   Primary_Block_Device: /dev/block/sdd9
+   Display_Name: EFS
+   Storage_Name: EFS
+   Backup_Path: /efs1
+   Backup_Name: efs1
+   Backup_Display_Name: EFS
+   Storage_Path: /efs1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/efs2 | /dev/block/sdd10 | Size: 2MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /efs1
+   Primary_Block_Device: /dev/block/sdd10
+   Display_Name: efs2
+   Storage_Name: efs2
+   Backup_Path: /efs2
+   Backup_Name: efs2
+   Backup_Display_Name: efs2
+   Storage_Path: /efs2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/usb-otg |  | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Removable Is_Storage 
+   Primary_Block_Device: /dev/block/sdg1
+   Alternate_Block_Device: /dev/block/sdg
+   Display_Name: USB-OTG
+   Storage_Name: USB-OTG
+   Backup_Path: /usb-otg
+   Backup_Name: usb-otg
+   Backup_Display_Name: USB-OTG
+   Storage_Path: /usb-otg
+   Current_File_System: vfat
+   Fstab_File_System: vfat
+   Backup_Method: files
+   MTP_Storage_ID: 65537
+
+I:Loading package: TWRP (/twres/ui.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/uk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/tr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sv.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/ru.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_BR.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/nl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/it.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/hu.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/fr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/es.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/el.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/de.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/cz.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:PageManager::LoadFileToBuffer loading filename: '/twres/ui.xml' directly
+I:Checking resolution...
+I:Scaling theme width 1.333333x and height 1.333333x, offsets x: 0 y: 0 w: 0 h: 0
+I:Loading resources...
+I:Failed to load image from indeterminate013, error -1
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Including file: /twres/portrait.xml...
+I:PageManager::LoadFileToBuffer loading filename: '/twres/portrait.xml' directly
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page main
+I:Loading page main2
+I:Loading page install
+I:Loading page flash_confirm
+I:Loading page flash_zip
+I:Loading page flash_done
+I:Loading page flash_sleep_and_reboot
+I:Loading page flashimage_confirm
+I:Loading page clear_vars
+I:Loading page reboot_system_routine
+I:Loading page confirm_action
+I:Loading page action_page
+I:Loading page singleaction_page
+I:Loading page action_complete
+I:Loading page filecheck
+I:Loading page rebootcheck
+I:Loading page appcheck
+I:Loading page wipe
+I:Loading page advancedwipe
+I:Loading page formatdata
+I:Loading page formatdata_confirm
+I:Loading page checkpartitionlist
+I:Loading page partitionoptions
+I:Loading page refreshfilesystem
+I:Loading page selectfilesystem
+I:Loading page backup
+I:Loading page backup_options
+I:Loading page backupname1
+I:Loading page backupname2
+I:Loading page backupencryption
+I:Loading page backupencryption2
+I:Loading page checkbackuppassword
+I:Loading page backup_run
+I:Loading page restore
+I:Unable to open '/data/media/0/TWRP/BACKUPS/HT69D0203779'
+I:Loading page restore_read
+I:Loading page restore_decrypt
+I:Loading page try_restore_decrypt
+I:Loading page restore_select
+I:Loading page renamebackup
+I:Loading page restore_run
+I:Loading page mount
+I:Loading page usb_mount
+I:Loading page usb_umount
+I:Loading page system_readonly_check
+I:Loading page reboot
+I:Loading page rebootapp
+I:Loading page system_readonly
+I:Loading page settings
+I:Loading page settings_timezone
+I:Loading page settings_screen
+I:Loading page settings_vibration
+I:Loading page settings_language
+I:Loading page copylog
+I:Loading page advanced
+I:Loading page partsdcardsel
+I:Loading page partsdcardcheck
+I:Loading page partsdcard
+I:Loading page htcdumlock
+I:Loading page lock
+I:Loading page filemanagerlist
+I:Loading page filemanageroptions
+I:Loading page choosedestinationfolder
+I:Loading page filemanagerrenamefile
+I:Loading page filemanagerrenamefolder
+I:Loading page filemanagerchmod
+I:Loading page filemanagerconfirm
+I:Loading page filemanageraction
+I:Loading page decrypt
+I:Loading page decrypt_pattern
+I:Loading page trydecrypt
+I:Loading page terminalcommand
+I:Loading page sideload
+I:Loading page fixcontexts
+I:Loading page installsu
+I:Loading page slideout
+I:Loading page select_storage
+I:Loading page select_language
+I:Switching packages (TWRP)
+SELinux contexts loaded from /file_contexts
+I:Mount: Unable to find partition for path '/cache'
+I:Could not check /cache/recovery SELinux contexts, using /sbin/teamwin instead which may be inaccurate.
+Full SELinux support is present.
+I:Mount: Unable to find partition for path '/cache'
+Startup Commands: 
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.isa.arm.variant=krait
+dalvik.vm.isa.arm.features=default
+dalvik.vm.isa.arm64.variant=kryo
+dalvik.vm.isa.arm64.features=default
+dalvik.vm.usejit=true
+dalvik.vm.heapsize=512m
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapstartsize=8m
+dalvik.vm.appimageformat=lz4
+dalvik.vm.usejitprofiles=true
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.image-dex2oat-filter=verify-at-runtime
+dalvik.vm.heaptargetutilization=0.75
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.config.vc_call_vol_steps=7
+ro.config.notification_sound=pixiedust.ogg
+ro.build.fingerprint=Google/omni_marlin/marlin:7.1/NDE63X/dees_t10061420:eng/test-keys
+ro.crypto.type=file
+ro.crypto.state=encrypted
+ro.crypto.scrypt_params=13:3:1
+af.fast_track_multiplier=1
+pm.dexopt.boot=verify-at-runtime
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.install=interpret-only
+pm.dexopt.core-app=speed
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.first-boot=verify-at-runtime
+pm.dexopt.shared-apk=speed
+pm.dexopt.nsys-library=speed
+pm.dexopt.forced-dexopt=speed
+ro.bt.bdaddr_path=/sys/module/bdaddress/parameters/bdaddress
+ro.qc.sdk.audio.fluencetype=fluencepro
+ro.sf.lcd_density=560
+ro.com.google.clientidbase=android-google
+ro.com.android.dataroaming=true
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.frp.pst=/dev/block/platform/soc/624000.ufshc/by-name/frp
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.boot.qf.st=2
+ro.boot.cid=11111111
+ro.boot.mid=G-2PW2100
+ro.boot.msm.hw_ver_id=268824801
+ro.boot.mode=recovery
+ro.boot.flash.locked=0
+ro.boot.fp_src=1
+ro.boot.console=ttyHSL0
+ro.boot.ddrinfo=00000006
+ro.boot.ddrsize=4GB
+ro.boot.selinux=permissive
+ro.boot.baseband=msm
+ro.boot.boottime=1BLL:85,1BLE:985,2BLL:0,2BLE:15228,SW:0,KL:2733
+ro.boot.hardware=marlin
+ro.boot.hardware.ddr=4096MB,Hynix,LPDDR4
+ro.boot.hardware.ufs=128GB,Samsung
+ro.boot.hardware.color=GRA00
+ro.boot.hardware.revision=PVT
+ro.boot.serialno=HT69D0203779
+ro.boot.keymaster=1
+ro.boot.bootdevice=624000.ufshc
+ro.boot.bootloader=8996-012001-1708111029
+ro.boot.veritymode=eio
+ro.boot.slot_suffix=_a
+ro.boot.wificountrycode=US
+ro.boot.verifiedbootstate=orange
+ro.boot.oem_unlock_support=1
+ro.boot.temp_protect_ignore=0
+ro.hwui.path_cache_size=32
+ro.hwui.layer_cache_size=48
+ro.hwui.texture_cache_size=72
+ro.hwui.gradient_cache_size=1
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_large_cache_height=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.texture_cache_flushrate=0.4
+ro.logd.size=1M
+ro.omni.device=marlin
+ro.omni.version=7.1-20171006-marlin-HOMEMADE
+ro.twrp.boot=1
+ro.twrp.version=3.1.1-1
+ro.wifi.channels=
+ro.allow.mock.location=1
+ro.board.platform=msm8996
+ro.build.id=NDE63X
+ro.build.date=Fri Oct  6 14:20:26 CDT 2017
+ro.build.date.utc=0
+ro.build.host=XPS15
+ro.build.tags=test-keys
+ro.build.type=eng
+ro.build.user=dees_troy
+ro.build.flavor=omni_marlin-eng
+ro.build.display.id=omni_marlin-eng 7.1 NDE63X eng.dees_t.20171006.142026 test-keys
+ro.build.product=marlin
+ro.build.version.sdk=25
+ro.build.version.base_os=
+ro.build.version.release=7.1
+ro.build.version.codename=REL
+ro.build.version.incremental=eng.dees_t.20171006.142026
+ro.build.version.preview_sdk=0
+ro.build.version.all_codenames=REL
+ro.build.version.security_patch=2016-11-05
+ro.build.ab_update=true
+ro.build.description=omni_marlin-eng 7.1 NDE63X eng.dees_t.20171006.142026 test-keys
+ro.build.characteristics=nosdcard
+ro.radio.log_prefix=modem_log_
+ro.camera.notify_nfc=1
+ro.kernel.android.checkjni=1
+ro.secure=0
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.zygote=zygote32
+ro.carrier=unknown
+ro.product.cpu.abi=arm64-v8a
+ro.product.cpu.abilist=armeabi-v7a,armeabi
+ro.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.product.cpu.abilist64=
+ro.product.name=omni_marlin
+ro.product.board=marlin
+ro.product.brand=Google
+ro.product.model=Pixel XL
+ro.product.device=marlin
+ro.product.locale=en-US
+ro.product.manufacturer=Google
+ro.product.first_api_level=24
+ro.baseband=msm
+ro.bootmode=recovery
+ro.hardware=marlin
+ro.hardware.power=marlin
+ro.hardware.bootctrl=msm8996
+ro.opengles.version=196610
+ro.revision=0
+ro.serialno=HT69D0203779
+ro.bootimage.build.date=Fri Oct 6 14:20:26 CDT 2017
+ro.bootimage.build.date.utc=1507317626
+ro.bootimage.build.fingerprint=Google/omni_marlin/marlin:7.1/NDE63X/dees_t10061420:eng/test-keys
+ro.telephony.default_network=10
+ro.telephony.default_cdma_sub=0
+ro.bootloader=8996-012001-1708111029
+ro.debuggable=1
+ro.modversion=OmniROM-7.1-20171006-marlin-HOMEMADE
+ro.setupwizard.enterprise_mode=1
+ro.cp_system_other_odex=1
+ro.oem_unlock_supported=1
+sdm.debug.disable_rotator_split=1
+init.svc.adbd=stopping
+init.svc.ueventd=running
+init.svc.recovery=running
+init.svc.sbinqseecomd=running
+init.svc.set_permissive=stopped
+qcom.bluetooth.soc=rome
+qdcm.only_pcc_for_trans=1
+qdcm.diagonal_matrix_mode=1
+rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+twrp.crash_counter=0
+vidc.debug.perf.mode=2
+audio.adm.buffering.ms=3
+persist.cne.feature=1
+persist.rcs.supported=1
+persist.data.mode=concurrent
+persist.data.iwlan.enable=true
+persist.camera.eis.enable=1
+persist.camera.tnr.video=1
+persist.camera.tnr.preview=1
+persist.camera.tof.direct=1
+persist.camera.gyro.android=4
+persist.camera.is_type=4
+keyguard.no_require_sim=true
+audio_hal.period_size=192
+telephony.lteOnCdmaDevice=1
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicecomm=true
+service.adb.root=1
+debug.sf.disable_hwc_vds=1
+debug.atrace.tags.enableflags=0
+sys.usb.ffs.ready=1
+sys.usb.ffs.max_read=524288
+sys.usb.ffs.max_write=524288
+net.bt.name=Android
+net.change=net.bt.name
+sys.usb.mtp.device_type=3
+sys.usb.rps_mask=0
+sys.keymaster.loaded=true
+sys.listeners.registered=true
+persist.sys.ssr.restart_level=venus,AR6320,slpi,modem,adsp
+persist.sys.ssr.enable_ramdumps=1
+persist.sys.usb.config=adb
+persist.sys.dalvik.vm.lib.2=libart.so
+persist.sys.root_access=1
+persist.radio.VT_ENABLE=1
+persist.radio.custom_ecc=1
+persist.radio.videopause.mode=1
+persist.radio.smlog_switch=1
+persist.radio.data_con_rprt=true
+persist.radio.sib16_support=1
+persist.radio.sw_mbn_update=1
+persist.radio.is_wps_enabled=true
+persist.radio.snapshot_timer=3
+persist.radio.ROTATION_ENABLE=1
+persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.apm_sim_not_pwdn=1
+persist.radio.data_ltd_sys_ind=1
+persist.radio.snapshot_enabled=1
+persist.radio.RATE_ADAPT_ENABLE=1
+
+I:Mount: Unable to find partition for path '/cache'
+I:Failed to mount /cache or find /data/cache for TWFunc::Update_Log_File
+I:Mount: Unable to find partition for path '/cache'
+I:Is encrypted, do decrypt page first
+I:Switching packages (TWRP)
+I:Set page: 'decrypt'
+I:Set page: 'trydecrypt'
+I:operation_start: 'Decrypt'
+I:Decrypting FBE for user 0
+password filename is '/data/system/gatekeeper.password.key'
+get_ce_key_directory_path 0: /data/misc/vold/user_keys/ce/0
+Skipping non-key .Skipping non-key ..get_ce_key_paths adding: /data/misc/vold/user_keys/ce/0/current
+Trying user CE key /data/misc/vold/user_keys/ce/0/currentSupplying auth token to KeymasterSuccessfully retrieved keyget_ce_key_current_path: /data/misc/vold/user_keys/ce/0/current
+keyname is ext4:313365359e374dd1
+Added key 265434270 (ext4:313365359e374dd1) to keyring 921353762 in process 437
+Installed ce key for user 0Preparing: /data/system/users/0
+Preparing: /data/misc/profiles/cur/0
+Preparing: /data/misc/profiles/cur/0/foreign-dex
+Preparing: /data/system_de/0
+Preparing: /data/misc_de/0
+Preparing: /data/user_de/0
+ensure_policy '/data/system_de/0'
+ensure_policy '/data/misc_de/0'
+ensure_policy '/data/user_de/0'
+Decrypted Successfully!
+Data successfully decrypted
+I:Backup folder set to '/data/media/0/TWRP/BACKUPS/HT69D0203779'
+Updating partition details...
+I:mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:Data backup size is 7MB, free: 94096MB.
+I:Unable to mount '/usb-otg'
+I:Actual block device: '', current file system: 'vfat'
+...done
+I:mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+/data | /dev/block/sda35 | Size: 114988MB Used: 7MB Free: 94096MB Backup Size: 7MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent Can_Be_Encrypted Is_Encrypted Is_Decrypted Has_Data_Media Can_Encrypt_Backup Use_Userdata_Encryption Is_Storage Is_Settings_Storage 
+   Symlink_Path: /data/media/0
+   Symlink_Mount_Point: /sdcard
+   Primary_Block_Device: /dev/block/sda35
+   Display_Name: data
+   Storage_Name: Internal Storage
+   Backup_Path: /data
+   Backup_Name: data
+   Backup_Display_Name: Data
+   Storage_Path: /data/media/0
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+   MTP_Storage_ID: 65538
+
+I:Unmounting main partitions...
+tw_get_context got selinux context: u:object_r:media_rw_data_file:s0
+I:Got default contexts and file mode for storage files.
+I:Decrypt adopted storage starting
+I:PageManager::LoadFileToBuffer loading filename: '/data/system/storage.xml' directly
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:operation_end - status=0
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Switching packages (TWRP)
+I:Attempt to load settings from settings file...
+I:InfoManager loading from '/data/media/0/TWRP/.twrps'.
+I:Backup folder set to '/data/media/0/TWRP/BACKUPS/HT69D0203779'
+I:Mount: Unable to find partition for path '/cache'
+I:Unable to mount '' to write version number.
+I:Unable to mount '/usb-otg'
+I:Actual block device: '', current file system: 'vfat'
+__bionic_open_tzdata: couldn't find any tzdata when looking for CST6CDT,M3.2.0,M11.1.0!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+I:TWFunc::Set_Brightness: Setting brightness control to 80
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:Translating partition display names
+I:Backup folder set to '/data/media/0/TWRP/BACKUPS/HT69D0203779'
+I:TWFunc::Fixup_Time: Pre-fix date and time: 1970-04-10--14-57-28
+I:TWFunc::Fixup_Time: Setting time offset from file /sys/class/rtc/rtc0/since_epoch
+I:TWFunc::Fixup_Time: will attempt to use the ats files now.
+I:TWFunc::Fixup_Time: no ats files found, leaving untouched!
+I:Starting MTP
+I:[MTP] Starting MTP
+I:sending message to add 65538 '/data/media/0' 'Internal Storage'
+I:Message sent, add storage ID: 65538
+MTP Enabled
+I:Check_Lifetime_Writes file does not exist '/sys/fs/ext4/system_a/lifetime_write_kbytes'
+I:Switching packages (TWRP)
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:[MTP] created new mtpserver object
+I:[MTP] MtpServer::run fd: 20
+I:[MTP] mtppipe add storage 65538 '/data/media/0'
+I:[MTP] MtpStorage id: 65538 path: /data/media/0
+I:Set page: 'advanced'
+I:Set page: 'filemanagerlist'
+I:Set page: 'filemanageroptions'
+I:Set page: 'choosedestinationfolder'
+I:Set page: 'filemanagerconfirm'
+I:Set page: 'filemanageraction'
+I:operation_start: 'Command'
+I:Running command: 'cp "/tmp/recovery.log" "/sdcard"'
