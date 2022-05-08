@@ -1,0 +1,169 @@
+[ 99% 63861/63862] Package OTA: /out/capx/target/product/coral/crooked_coral-ota-eng.nepo.zip
+FAILED: /out/capx/target/product/coral/crooked_coral-ota-eng.nepo.zip /out/capx/target/product/coral/ota_metadata
+/bin/bash -c "PATH=/out/capx/host/linux-x86/bin/:system/extras/ext4_utils/:/out/capx/soong/host/linux-x86/bin/:\$PATH /out/capx/host/linux-x86/bin/ota_from_target_files 
+--verbose --extracted_input_target_files /out/capx/target/product/coral/obj/PACKAGING/target_files_intermediates/crooked_coral-target_files-eng.nepo --path /out/capx/hos
+t/linux-x86  -k build/make/target/product/security/testkey --output_metadata_path /out/capx/target/product/coral/ota_metadata /out/capx/target/product/coral/obj/PACKAGIN
+G/target_files_intermediates/crooked_coral-target_files-eng.nepo.zip /out/capx/target/product/coral/crooked_coral-ota-eng.nepo.zip"
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read SYSTEM/etc/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read ODM/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read VENDOR_DLKM/etc/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read VENDOR_DLKM/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read ODM_DLKM/etc/build.prop
+2022-05-08 12:17:18 - common.py - WARNING : Failed to read ODM_DLKM/build.prop
+2022-05-08 12:17:19 - ota_from_target_files.py - INFO    : --- target info ---
+2022-05-08 12:17:19 - common.py - INFO    : ab_partitions             = (list) ['boot', 'system', 'vbmeta', 'dtbo', 'product', 'system_ext', 'vbmeta_system', 'vendor', '
+']
+2022-05-08 12:17:19 - common.py - INFO    : ab_update                 = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_avbtool               = (str) avbtool
+2022-05-08 12:17:19 - common.py - INFO    : avb_boot_add_hash_footer_args = (str) --prop com.android.build.boot.fingerprint:google/coral/coral:12/SP2A.220405.003/8210211
+:user/release-keys --prop com.android.build.boot.os_version:12 --prop com.android.build.boot.security_patch:2022-05-05
+2022-05-08 12:17:19 - common.py - INFO    : avb_boot_salt             = (str) 3608b5f8df6a0c5a4eb3969ac5df21927f0ba6ff479d841d81e2126ca862cfeb
+2022-05-08 12:17:19 - common.py - INFO    : avb_building_vbmeta_image = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_dtbo_add_hash_footer_args = (str) --prop com.android.build.dtbo.fingerprint:google/coral/coral:12/SP2A.220405.003/8210211
+:user/release-keys
+2022-05-08 12:17:19 - common.py - INFO    : avb_enable                = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_odm_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.odm.fingerprint:google/coral/coral:
+12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.odm.os_version:12
+2022-05-08 12:17:19 - common.py - INFO    : avb_odm_dlkm_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.odm_dlkm.fingerprint:google/co
+ral/coral:12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.odm_dlkm.os_version:12
+2022-05-08 12:17:19 - common.py - INFO    : avb_odm_dlkm_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_odm_hashtree_enable   = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_product_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.product.fingerprint:google/cora
+l/coral:12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.product.os_version:12 --prop com.android.build.product.security_patch:2022-05-05
+2022-05-08 12:17:19 - common.py - INFO    : avb_product_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_product_salt          = (str) 3608b5f8df6a0c5a4eb3969ac5df21927f0ba6ff479d841d81e2126ca862cfeb
+2022-05-08 12:17:19 - common.py - INFO    : avb_recovery_add_hash_footer_args = (str) --prop com.android.build.recovery.fingerprint:google/coral/coral:12/SP2A.220405.003
+/8210211:user/release-keys
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.system.fingerprint:google/coral/
+coral:12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.system.os_version:12 --prop com.android.build.system.security_patch:2022-05-05
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_ext_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.system_ext.fingerprint:googl
+e/coral/coral:12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.system_ext.os_version:12 --prop com.android.build.system_ext.security_patch:2022-05-0
+5
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_ext_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_ext_salt       = (str) 3608b5f8df6a0c5a4eb3969ac5df21927f0ba6ff479d841d81e2126ca862cfeb
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_other_add_hashtree_footer_args = (str) --hash_algorithm sha256 --rollback_index 1651708800
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_other_algorithm = (str) SHA256_RSA4096
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_other_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_other_key_path = (str) external/avb/test/data/testkey_rsa4096.pem
+2022-05-08 12:17:19 - common.py - INFO    : avb_system_salt           = (str) 3608b5f8df6a0c5a4eb3969ac5df21927f0ba6ff479d841d81e2126ca862cfeb
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_algorithm      = (str) SHA256_RSA4096
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_args           = (str) --flags 3 --padding_size 4096 --rollback_index 1651708800
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_key_path       = (str) external/avb/test/data/testkey_rsa4096.pem
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_system         = (str) system system_ext product
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_system_algorithm = (str) SHA256_RSA2048
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_system_args    = (str) --padding_size 4096 --rollback_index 1651708800
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_system_key_path = (str) external/avb/test/data/testkey_rsa2048.pem
+2022-05-08 12:17:19 - common.py - INFO    : avb_vbmeta_system_rollback_index_location = (str) 1
+2022-05-08 12:17:19 - common.py - INFO    : avb_vendor_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.vendor.fingerprint:google/coral/
+coral:12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.vendor.os_version:12 --prop com.android.build.vendor.security_patch:2022-05-05
+2022-05-08 12:17:19 - common.py - INFO    : avb_vendor_boot_add_hash_footer_args = (str) --prop com.android.build.vendor_boot.fingerprint:google/coral/coral:12/SP2A.2204
+05.003/8210211:user/release-keys
+2022-05-08 12:17:19 - common.py - INFO    : avb_vendor_dlkm_add_hashtree_footer_args = (str) --hash_algorithm sha256 --prop com.android.build.vendor_dlkm.fingerprint:goo
+gle/coral/coral:12/SP2A.220405.003/8210211:user/release-keys --prop com.android.build.vendor_dlkm.os_version:12
+2022-05-08 12:17:19 - common.py - INFO    : avb_vendor_dlkm_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_vendor_hashtree_enable = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : avb_vendor_salt           = (str) 3608b5f8df6a0c5a4eb3969ac5df21927f0ba6ff479d841d81e2126ca862cfeb
+2022-05-08 12:17:19 - common.py - INFO    : blockimgdiff_versions     = (str) 3,4
+2022-05-08 12:17:19 - common.py - INFO    : blocksize                 = (int) 131072
+2022-05-08 12:17:19 - common.py - INFO    : board_builds_vendorimage  = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : board_uses_vendorimage    = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : boot.build.prop           = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229a8da50>
+2022-05-08 12:17:19 - common.py - INFO    : boot_images               = (str) boot.img
+2022-05-08 12:17:19 - common.py - INFO    : boot_size                 = (int) 67108864
+2022-05-08 12:17:19 - common.py - INFO    : build.prop                = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229852f10>
+2022-05-08 12:17:19 - common.py - INFO    : build_super_empty_partition = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : build_type                = (str) userdebug
+2022-05-08 12:17:19 - common.py - INFO    : building_product_image    = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : building_system_ext_image = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : building_system_image     = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : building_system_other_image = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : building_userdata_image   = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : building_vendor_image     = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : default_system_dev_certificate = (str) build/make/target/product/security/testkey
+2022-05-08 12:17:19 - common.py - INFO    : dtbo_size                 = (str) 8388608
+2022-05-08 12:17:19 - common.py - INFO    : dynamic_partition_list    = (str)  system vendor product system_ext
+2022-05-08 12:17:19 - common.py - INFO    : erofs_sparse_flag         = (str) -s
+2022-05-08 12:17:19 - common.py - INFO    : ext4_share_dup_blocks     = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : ext_mkuserimg             = (str) mkuserimg_mke2fs
+2022-05-08 12:17:19 - common.py - INFO    : extfs_sparse_flag         = (str) -s
+2022-05-08 12:17:19 - common.py - INFO    : f2fs_sparse_flag          = (str) -S
+2022-05-08 12:17:19 - common.py - INFO    : fs_type                   = (str) ext4
+2022-05-08 12:17:19 - common.py - INFO    : fstab                     = (NoneType) None
+2022-05-08 12:17:19 - common.py - INFO    : fstab_version             = (int) 2
+2022-05-08 12:17:19 - common.py - INFO    : has_dtbo                  = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : lpmake                    = (str) lpmake
+2022-05-08 12:17:19 - common.py - INFO    : mkbootimg_args            = (str) --header_version 2
+2022-05-08 12:17:19 - common.py - INFO    : mkbootimg_version_args    = (str) --os_version 12 --os_patch_level 2022-05-05
+2022-05-08 12:17:19 - common.py - INFO    : multistage_support        = (str) 1
+2022-05-08 12:17:19 - common.py - INFO    : no_recovery               = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : odm.build.prop            = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229a85dd0>
+2022-05-08 12:17:19 - common.py - INFO    : odm_dlkm.build.prop       = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229a8db90>
+2022-05-08 12:17:19 - common.py - INFO    : oem_selinux_fc            = (str) /out/capx/target/product/coral/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2022-05-08 12:17:19 - common.py - INFO    : product.build.prop        = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229a85b50>
+2022-05-08 12:17:19 - common.py - INFO    : product_fs_type           = (str) ext4
+2022-05-08 12:17:19 - common.py - INFO    : product_selinux_fc        = (str) /out/capx/target/product/coral/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2022-05-08 12:17:19 - common.py - INFO    : recovery_api_version      = (int) 3
+2022-05-08 12:17:19 - common.py - INFO    : recovery_as_boot          = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : recovery_mkbootimg_args   = (str) --header_version 2
+2022-05-08 12:17:19 - common.py - INFO    : recovery_mount_options    = (str) ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc
+2022-05-08 12:17:19 - common.py - INFO    : root_dir                  = (str) /out/capx/target/product/coral/root
+2022-05-08 12:17:19 - common.py - INFO    : squashfs_sparse_flag      = (str) -s
+2022-05-08 12:17:19 - common.py - INFO    : super_block_devices       = (str) super
+2022-05-08 12:17:19 - common.py - INFO    : super_google_dynamic_partitions_group_size = (str) 4873781248
+2022-05-08 12:17:19 - common.py - INFO    : super_google_dynamic_partitions_partition_list = (str)  system vendor product system_ext
+2022-05-08 12:17:19 - common.py - INFO    : super_metadata_device     = (str) super
+2022-05-08 12:17:19 - common.py - INFO    : super_partition_error_limit = (str) 9651093504
+2022-05-08 12:17:19 - common.py - INFO    : super_partition_groups    = (str) google_dynamic_partitions
+2022-05-08 12:17:19 - common.py - INFO    : super_partition_size      = (str) 9755951104
+2022-05-08 12:17:19 - common.py - INFO    : super_super_device_size   = (str) 9755951104
+2022-05-08 12:17:19 - common.py - INFO    : system.build.prop         = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229852f10>
+2022-05-08 12:17:19 - common.py - INFO    : system_ext.build.prop     = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229a85c10>
+2022-05-08 12:17:19 - common.py - INFO    : system_ext_fs_type        = (str) ext4
+2022-05-08 12:17:19 - common.py - INFO    : system_ext_selinux_fc     = (str) /out/capx/target/product/coral/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2022-05-08 12:17:19 - common.py - INFO    : system_selinux_fc         = (str) /out/capx/target/product/coral/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2022-05-08 12:17:19 - common.py - INFO    : tool_extensions           = (str) device/google/coral/coral/../common
+2022-05-08 12:17:19 - common.py - INFO    : use_dynamic_partition_size = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : use_dynamic_partitions    = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : userdata_fs_type          = (str) f2fs
+2022-05-08 12:17:19 - common.py - INFO    : userdata_selinux_fc       = (str) /out/capx/target/product/coral/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2022-05-08 12:17:19 - common.py - INFO    : userdata_size             = (int) 10737418240
+2022-05-08 12:17:19 - common.py - INFO    : vbmeta_digest             = (str) 8fca673c6d3de5e73b5e57a32caa487d576edb3cdd6d4295f68158fb85bab352
+2022-05-08 12:17:19 - common.py - INFO    : vendor.build.prop         = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229580ed0>
+2022-05-08 12:17:19 - common.py - INFO    : vendor_dlkm.build.prop    = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7fa229a8da90>
+2022-05-08 12:17:19 - common.py - INFO    : vendor_fs_type            = (str) ext4
+2022-05-08 12:17:19 - common.py - INFO    : vendor_selinux_fc         = (str) /out/capx/target/product/coral/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2022-05-08 12:17:19 - common.py - INFO    : vintf_enforce             = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : vintf_include_empty_vendor_sku = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : virtual_ab                = (str) true
+2022-05-08 12:17:19 - common.py - INFO    : virtual_ab_retrofit       = (str) true
+2022-05-08 12:17:19 - check_target_files_vintf.py - INFO    : Checking VINTF compatibility target files...
+2022-05-08 12:17:19 - ota_from_target_files.py - ERROR   : 
+   ERROR:
+Traceback (most recent call last):
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 1496, in <module>
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 1470, in main
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 1100, in GenerateAbOtaPackage
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/check_target_files_vintf.py", line 244, in CheckVintfIfTrebleEnabled
+    if not CheckVintf(target_files, target_info):
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/check_target_files_vintf.py", line 216, in CheckVintf
+    return CheckVintfFromTargetFiles(inp, info_dict)
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/check_target_files_vintf.py", line 193, in CheckVintfFromTargetFiles
+    input_tmp = common.UnzipTemp(inp, GetVintfFileList() + UNZIP_PATTERN)
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/common.py", line 1984, in UnzipTemp
+    UnzipToDir(filename, tmp, pattern)
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/common.py", line 1960, in UnzipToDir
+    RunAndCheckOutput(cmd)
+  File "/out/capx/host/linux-x86/bin/ota_from_target_files/common.py", line 312, in RunAndCheckOutput
+    args, proc.returncode, output))
+ExternalError: Failed to run command '['unzip', '-o', '-q', '/out/capx/target/product/coral/obj/PACKAGING/target_files_intermediates/crooked_coral-target_files-eng.nepo.
+zip', '-d', '/out/capx/soong/.temp/targetfiles-xSvNlQ', 'SYSTEM/etc/vintf/*', 'VENDOR/etc/vintf/*', 'PRODUCT/etc/vintf/*', 'SYSTEM_EXT/etc/vintf/*', 'VENDOR/odm/etc/*', 
+'META/*', '*/build.prop']' (exit code 12):
+error: invalid zip file with overlapped components (possible zip bomb)
+ To unzip the file anyway, rerun the command with UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE environmnent variable
+
+12:17:19 ninja failed with: exit status 1
+
+#### failed to build some targets (01:28:53 (hh:mm:ss)) ####
