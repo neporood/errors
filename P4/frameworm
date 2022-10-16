@@ -1,0 +1,83 @@
+[ 99% 154965/154988] //vendor/pixel-framework/SystemUIGoogle:SystemUIGoogle-core javac [common]
+FAILED: /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/SystemUIGoogle-core.jar
+rm -rf "/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/classes" "/out/cap2/soong/.intermediates/vendor/pix
+el-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/anno" "/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/andr
+oid_common/javac/srcjars" "/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/SystemUIGoogle-core.jar" && mkdi
+r -p "/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/classes" "/out/cap2/soong/.intermediates/vendor/pixel
+-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/anno" "/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/androi
+d_common/javac/srcjars" && /out/cap2/host/linux-x86/bin/zipsync -d /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_commo
+n/javac/srcjars -l /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/srcjars/list -f "*.java" /out/cap2/soong
+/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/gen/android/R.srcjar /out/cap2/soong/.intermediates/vendor/pixel-framework/Syste
+mUIGoogle/SystemUIGoogle-core/android_common/kapt/kapt-sources.jar && (if [ -s /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/a
+ndroid_common/javac/srcjars/list ] || [ -s /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/SystemUIGoogle-c
+ore.jar.rsp ] ; then /out/cap2/host/linux-x86/bin/soong_javac_wrapper prebuilts/jdk/jdk11/linux-x86/bin/javac -J-Xmx2048M -J-XX:OnError="cat hs_err_pid%p.log" -J-XX:CICo
+mpilerCount=6 -J-XX:+UseDynamicNumberOfGCThreads -J-XX:+TieredCompilation -J-XX:TieredStopAtLevel=1 -Xmaxerrs 9999999 -encoding UTF-8 -sourcepath "" -g -XDskipDuplicateB
+ridges=true -XDstringConcat=inline  -proc:none -Xlint:-dep-ann --system=/out/cap2/soong/.intermediates/build/soong/java/core-libraries/stable-core-platform-api-stubs-sys
+tem-modules/android_common/system -classpath /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/kotlin_headers/Syste
+mUIGoogle-core.jar:/out/cap2/soong/.intermediates/frameworks/base/ext/android_common/turbine-combined/ext.jar:/out/cap2/soong/.intermediates/frameworks/base/framework/an
+droid_common/turbine-combined/framework.jar:/out/cap2/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/turbine-combined/SystemUI-core.
+jar:/out/cap2/soong/.intermediates/external/tensorflow/tensorflow/lite/java/tensorflowlite_java/android_common/turbine-combined/tensorflowlite_java.jar:/out/cap2/soong/.
+intermediates/frameworks/hardware/interfaces/stats/aidl/android.frameworks.stats-V1-java/android_common/turbine-combined/android.frameworks.stats-V1-java.jar:/out/cap2/s
+oong/.intermediates/vendor/pixel-framework/proto/vendor-pixelatoms-java/android_common/turbine-combined/vendor-pixelatoms-java.jar:/out/cap2/soong/.intermediates/vendor/
+pixel-framework/SystemUIGoogle/proto/smartspace-proto-java/android_common/turbine-combined/smartspace-proto-java.jar:/out/cap2/soong/.intermediates/external/guava/guava/
+android_common/turbine-combined/guava.jar:/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/matchmaker/matchmaker-lib/android_common/combined/matchmak
+er-lib.jar:/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/touchcontext/touchcontext-lib/android_common/combined/touchcontext-lib.jar:/out/cap2/soon
+g/.intermediates/vendor/pixel-framework/SystemUIGoogle/interfaces/vendor-google-interfaces-lib/android_common/combined/vendor-google-interfaces-lib.jar:/out/cap2/soong/.
+intermediates/vendor/pixel-framework/SystemUIGoogle/nga/nga-lib/android_common/combined/nga-lib.jar:/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/
+elmyra/elmyra-lib/android_common/combined/elmyra-lib.jar:/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/columbus/columbus-lib/android_common/combin
+ed/columbus-lib.jar:/out/cap2/soong/.intermediates/external/kotlinc/kotlin-stdlib/android_common/combined/kotlin-stdlib.jar:/out/cap2/soong/.intermediates/external/kotli
+nc/kotlin-stdlib-jdk7/android_common/combined/kotlin-stdlib-jdk7.jar:/out/cap2/soong/.intermediates/external/kotlinc/kotlin-stdlib-jdk8/android_common/combined/kotlin-st
+dlib-jdk8.jar:/out/cap2/soong/.intermediates/external/kotlinc/kotlin-annotations/android_common/combined/kotlin-annotations.jar -source 11 -target 11 -d /out/cap2/soong/
+.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/classes -s /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGo
+ogle/SystemUIGoogle-core/android_common/javac/anno @/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/SystemU
+IGoogle-core.jar.rsp @/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/srcjars/list ; fi ) && /out/cap2/host
+/linux-x86/bin/soong_zip -jar -o /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/SystemUIGoogle-core.jar -C
+ /out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/classes -D /out/cap2/soong/.intermediates/vendor/pixel-fra
+mework/SystemUIGoogle/SystemUIGoogle-core/android_common/javac/classes && rm -rf "/out/cap2/soong/.intermediates/vendor/pixel-framework/SystemUIGoogle/SystemUIGoogle-cor
+e/android_common/javac/srcjars"
+vendor/pixel-framework/SystemUIGoogle/src/com/google/android/systemui/statusbar/phone/CentralSurfacesGoogle.java:256: error: constructor CentralSurfacesImpl in class Cen
+tralSurfacesImpl cannot be applied to given types;
+        super(context, notificationsController, fragmentService, lightBarController,
+        ^
+  required: Context,NotificationsController,FragmentService,LightBarController,AutoHideController,StatusBarWindowController,StatusBarWindowStateController,KeyguardUpdate
+Monitor,StatusBarSignalPolicy,PulseExpansionHandler,NotificationWakeUpCoordinator,KeyguardBypassController,KeyguardStateController,HeadsUpManagerPhone,DynamicPrivacyCont
+roller,FalsingManager,FalsingCollector,BroadcastDispatcher,NotificationEntryManager,NotificationGutsManager,NotificationLogger,NotificationInterruptStateProvider,Notific
+ationViewHierarchyManager,PanelExpansionStateManager,KeyguardViewMediator,DisplayMetrics,MetricsLogger,Executor,NotificationMediaManager,NotificationLockscreenUserManage
+r,NotificationRemoteInputManager,UserSwitcherController,BatteryController,SysuiColorExtractor,ScreenLifecycle,WakefulnessLifecycle,SysuiStatusBarStateController,Optional
+<Bubbles>,VisualStabilityManager,DeviceProvisionedController,NavigationBarController,AccessibilityFloatingMenuController,Lazy<AssistManager>,ConfigurationController,Noti
+ficationShadeWindowController,DozeParameters,ScrimController,Lazy<LockscreenWallpaper>,Lazy<BiometricUnlockController>,DozeServiceHost,PowerManager,ScreenPinningRequest,
+DozeScrimController,VolumeComponent,CommandQueue,com.android.systemui.statusbar.phone.dagger.CentralSurfacesComponent.Factory,PluginManager,ShadeController,StatusBarKeyg
+uardViewManager,ViewMediatorCallback,InitController,Handler,PluginDependencyProvider,KeyguardDismissUtil,ExtensionController,UserInfoControllerImpl,PhoneStatusBarPolicy,
+KeyguardIndicationController,DemoModeController,Lazy<NotificationShadeDepthController>,StatusBarTouchableRegionManager,NotificationIconAreaController,com.android.systemu
+i.settings.brightness.BrightnessSliderController.Factory,ScreenOffAnimationController,WallpaperController,OngoingCallController,StatusBarHideIconsForBouncerManager,Locks
+creenShadeTransitionController,FeatureFlags,KeyguardUnlockAnimationController,DelayableExecutor,MessageRouter,WallpaperManager,Optional<StartingSurface>,ActivityLaunchAn
+imator,NotifPipelineFlags,InteractionJankMonitor,DeviceStateManager,DreamOverlayStateController,WiredChargingRippleController,IDreamManager
+  found: Context,NotificationsController,FragmentService,LightBarController,AutoHideController,StatusBarWindowController,StatusBarWindowStateController,KeyguardUpdateMon
+itor,StatusBarSignalPolicy,PulseExpansionHandler,NotificationWakeUpCoordinator,KeyguardBypassController,KeyguardStateController,HeadsUpManagerPhone,DynamicPrivacyControl
+ler,FalsingManager,FalsingCollector,BroadcastDispatcher,NotifShadeEventSource,NotificationEntryManager,NotificationGutsManager,NotificationLogger,NotificationInterruptSt
+ateProvider,NotificationViewHierarchyManager,PanelExpansionStateManager,KeyguardViewMediator,DisplayMetrics,MetricsLogger,Executor,NotificationMediaManager,NotificationL
+ockscreenUserManager,NotificationRemoteInputManager,UserSwitcherController,NetworkController,BatteryController,SysuiColorExtractor,ScreenLifecycle,WakefulnessLifecycle,S
+ysuiStatusBarStateController,Optional<BubblesManager>,Optional<Bubbles>,VisualStabilityManager,DeviceProvisionedController,NavigationBarController,AccessibilityFloatingM
+enuController,Lazy<AssistManager>,ConfigurationController,NotificationShadeWindowController,DozeParameters,ScrimController,Lazy<LockscreenWallpaper>,LockscreenGestureLog
+ger,Lazy<BiometricUnlockController>,DozeServiceHost,PowerManager,ScreenPinningRequest,DozeScrimController,VolumeComponent,CommandQueue,com.android.systemui.statusbar.pho
+ne.dagger.CentralSurfacesComponent.Factory,PluginManager,ShadeController,StatusBarKeyguardViewManager,ViewMediatorCallback,InitController,Handler,PluginDependencyProvide
+r,KeyguardDismissUtil,ExtensionController,UserInfoControllerImpl,PhoneStatusBarPolicy,KeyguardIndicationController,DemoModeController,Lazy<NotificationShadeDepthControll
+er>,StatusBarTouchableRegionManager,NotificationIconAreaController,com.android.systemui.settings.brightness.BrightnessSliderController.Factory,ScreenOffAnimationControll
+er,WallpaperController,OngoingCallController,StatusBarHideIconsForBouncerManager,LockscreenShadeTransitionController,FeatureFlags,KeyguardUnlockAnimationController,Handl
+er,DelayableExecutor,MessageRouter,WallpaperManager,Optional<StartingSurface>,ActivityLaunchAnimator,NotifPipelineFlags,InteractionJankMonitor,DeviceStateManager,DreamOv
+erlayStateController,WiredChargingRippleController,IDreamManager
+  reason: actual and formal argument lists differ in length
+vendor/pixel-framework/SystemUIGoogle/src/com/google/android/systemui/statusbar/KeyguardIndicationControllerGoogle.java:105: error: constructor KeyguardIndicationControl
+ler in class KeyguardIndicationController cannot be applied to given types;
+        super(context, mainLooper, wakeLockBuilder, keyguardStateController, statusBarStateController, keyguardUpdateMonitor, dockManager, broadcastDispatcher, devicePol
+icyManager, iBatteryStats, userManager, executor, bgExecutor, falsingManager, lockPatternUtils, screenLifecycle, iActivityManager, keyguardBypassController);
+        ^
+  required: Context,Looper,Builder,KeyguardStateController,StatusBarStateController,KeyguardUpdateMonitor,DockManager,BroadcastDispatcher,DevicePolicyManager,IBatterySta
+ts,UserManager,DelayableExecutor,DelayableExecutor,FalsingManager,LockPatternUtils,ScreenLifecycle,IActivityManager,KeyguardBypassController,AccessibilityManager
+  found: Context,Looper,Builder,KeyguardStateController,StatusBarStateController,KeyguardUpdateMonitor,DockManager,BroadcastDispatcher,DevicePolicyManager,IBatteryStats,
+UserManager,DelayableExecutor,DelayableExecutor,FalsingManager,LockPatternUtils,ScreenLifecycle,IActivityManager,KeyguardBypassController
+  reason: actual and formal argument lists differ in length
+2 errors
+11:43:54 ninja failed with: exit status 1
+
+#### failed to build some targets (01:17:23 (hh:mm:ss)) ####
