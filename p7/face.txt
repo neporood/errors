@@ -1,0 +1,347 @@
+--------- beginning of main
+12-01 14:41:57.635   822   822 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 3, state: 3, device: 4
+12-01 14:41:57.638 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.639 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.640   822   822 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 4, state: 2, device: 4
+12-01 14:41:57.642 17432 17470 W Finsky  : [81] tsu.a(5): PreloadClasses: Unable to load [androidx.compose.ui.semantics.SemanticsModifierKt$semantics$2, androidx.compose.foundation.FocusableKt$focusable$2$1, androidx.compose.foundation.FocusableKt$focusable$2$4, androidx.compose.ui.focus.FocusChangedModifierKt$onFocusChanged$2$1, androidx.compose.ui.node.ModifiedLayoutNode, androidx.compose.foundation.FocusableKt$focusable$2$1$invoke$$inlined$onDispose$1, androidx.compose.ui.node.LayoutNode$layoutChildren$1, androidx.compose.ui.node.LayoutNodeWrapper$updateLayerParameters$1, androidx.compose.ui.node.LayoutNodeWrapper$invoke$1, androidx.compose.foundation.ClickableKt$PressedInteractionSourceDisposableEffect$1$1, androidx.compose.foundation.ClickableKt$combinedClickable$4$gesture$1, androidx.compose.ui.semantics.SemanticsModifierKt$clearAndSetSemantics$2, androidx.compose.foundation.ClickableKt$clickable$4$gesture$1, androidx.compose.material.DefaultButtonElevation$elevation$1, androidx.compose.foundation.ClickableKt$PressedInteractionSourceDisposableEffect$1$1$invoke$$inlined$onDispose$1, androidx.compose.ui.text.platform.AndroidParagraph, androidx.compose.ui.text.platform.AndroidParagraph$WhenMappings, androidx.compose.ui.text.platform.AndroidParagraph$wordBoundary$2, androidx.compose.foundation.lazy.LazyListStateKt$rememberLazyListState$1, androidx.compose.foundation.lazy.LazyListScopeImpl$items$1, androidx.compose.foundation.lazy.LazyListKt$LazyList$2, androidx.compose.foundation.lazy.LazyListScopeImpl$items$1$1, androidx.compose.foundation.ClickableKt$combinedClickable$4$gesture$1$2, androidx.compose.foundation.ClickableKt$combinedClickable$4$gesture$1$3, androidx.compose.foundation.ClickableKt$combinedClickable$4$gesture$1$4, androidx.compose.foundation.ClickableKt$clickable$4$gesture$1$2, androidx.compose.foundation.gestures.TapGestureDetectorKt$awaitFirstDown$1, androidx.compose.material.DefaultButtonElevation$elevation$1$invokeSuspend$$inlined$collect$1, androidx.compose.material.ripple.Ripple$rememberUpdatedInstance$1$invokeSuspend$$inlined$collect$1]
+12-01 14:41:57.651 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.652 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.663 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.684 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.685 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.685 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.686 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.686 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.729 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.732 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.732 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.736 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.838 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.912 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+12-01 14:41:57.915 17432 17570 E PhenotypeCombinedFlags: Config package com.google.android.gms.phenotype cannot use PROCESS_STABLE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+--------- beginning of kernel
+12-01 14:41:58.670   907   907 W         : [14:41:58.699345][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:41:58.709  1053  1053 W [14:41:58.739197][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:41:58.848  2426  7051 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:41:59.646  1053  1053 W [14:41:59.676019][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:00.029  1840  1840 W BcSmartspaceCard: No title view to update
+12-01 14:42:01.665 17119 17119 W google_battery: MSC_DIN chg_state=1f4101b03010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4123 icl=500
+12-01 14:42:01.666 17119 17119 W google_battery: MSC_FAST vt=4200000 vb=4123906 ib=-260625 fv_uv=4200000->4200000 vchrg=4123 cv_cnt=1
+12-01 14:42:01.806   907   907 W         : [14:42:01.836021][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:01.856  1053  1053 W [14:42:01.885831][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:02.010  2426  7051 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:42:02.702  1053  1053 W [14:42:02.731825][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:02.704     0     0 W [    C4] [14: 42:02.733356][dhd][wlan]Runtime Resume is called in dhd_prot_process_msgbuf_rxcpl.cfi_jt [bcmdhd4389]
+12-01 14:42:02.774  1053  1053 W [14:42:02.804132][dhd][wlan]dhd_runtimepm_state: Schedule DPC to process pending Rx packets
+12-01 14:42:02.774  1053  1053 W [14:42:02.804165][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:03.642  1053  1053 W [14:42:03.671926][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:04.240  2544  2544 W         : [14:42:04.269858][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:04.284  1053  1053 W [14:42:04.313307][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:05.062     0     0 W [    C5] [14: 42:05.091772][dhd][wlan]DHCP DISCOVER[REQUEST][wlan0] [RX]
+12-01 14:42:05.851  1053  1053 W [14:42:05.880204][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:08.071   907   907 W         : [14:42:08.100998][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:08.116  1053  1053 W [14:42:08.145873][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:09.058  1053  1053 W [14:42:09.087872][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:09.566  2544  2544 W         : [14:42:09.595320][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:09.607  1053  1053 W [14:42:09.637018][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:10.558  1053  1053 W [14:42:10.587784][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:11.219   907   907 W         : [14:42:11.249036][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:11.259  1053  1053 W [14:42:11.289098][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:12.198  1053  1053 W [14:42:12.228076][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:14.276  2544  2544 W         : [14:42:14.305216][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:14.318  1053  1053 W [14:42:14.348014][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:15.262  1053  1053 W [14:42:15.291758][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:15.835   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:15.836   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:15.836   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:15.836   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:16.110   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:16.110   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:16.335   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:17.461   907   907 W         : [14:42:17.490921][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:17.505  1053  1053 W [14:42:17.534705][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:18.442  1053  1053 W [14:42:18.472168][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:18.928 17381 17381 W         : [14:42:18.958022][dhd][wlan]Runtime Resume is called in dhd_start_xmit.cfi_jt [bcmdhd4389]
+12-01 14:42:18.973  1053  1053 W [14:42:19.002966][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:19.377   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:19.914  1053  1053 W [14:42:19.944022][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:20.010  2544  2544 W         : [14:42:20.040032][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:20.054  1053  1053 W [14:42:20.083602][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:20.723   822  3205 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 1, state: 2, device: 4
+--------- beginning of system
+12-01 14:42:20.728  1526  2007 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2383189)
+12-01 14:42:20.731   822  3205 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 2, state: 3, device: 4
+12-01 14:42:20.737   822  1352 W audio_hw_stuning: receive_response_data:invalid rx_sz 0
+12-01 14:42:20.740  1526  2007 E FaceService: Multiple sensors found: 2
+12-01 14:42:20.740  1526  2007 W FaceService: Null provider for enroll
+12-01 14:42:20.744  2426  7051 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:42:20.750  3622  3622 E SurfaceSyncer: Failed to find sync for id=0
+12-01 14:42:20.760   824  1207 W Lyric   : device_context_base.cc:277: NotifyCaptureSessionOpen: No OisController found for physical camera Front. Status: NOT_FOUND: Failed to find controller by type and camera id(Front); failed to get controller with ID: optical image stabilization controller for camera: Front from device_context
+12-01 14:42:20.760   824  1207 W Lyric   : device_context_base.cc:277: NotifyCaptureSessionOpen: No OisController found for physical camera FrontVirtual. Status: NOT_FOUND: Failed to find controller by type and camera id(FrontVirtual); failed to get controller with ID: optical image stabilization controller for camera: FrontVirtual from device_context
+12-01 14:42:20.761   824  1119 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0xb400007b93bfeb10). Use sp<> to manage this object.
+12-01 14:42:20.762   824  1119 W RefBase : CallStack::getCurrentInternal not linked, returning null
+12-01 14:42:20.762   824  1119 W RefBase : CallStack::logStackInternal not linked
+12-01 14:42:20.767   679  3143 W libperfmgr: Slow writing to file: '/dev/cpuset/camera-daemon/cpus' with value: '4-7' took: 6 ms
+12-01 14:42:20.769   824  1119 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0xb400007b93b83030). Use sp<> to manage this object.
+12-01 14:42:20.769   824  1119 W RefBase : CallStack::getCurrentInternal not linked, returning null
+12-01 14:42:20.769   824  1119 W RefBase : CallStack::logStackInternal not linked
+12-01 14:42:20.769   993  1692 W Camera2-Parameters: initialize: Camera 1: Unknown preview format: 25
+12-01 14:42:20.769   993  1692 W Camera2-Parameters: initialize: Camera 1: Unknown preview format: 36
+12-01 14:42:20.774   824  1119 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0xb400007b93b19790). Use sp<> to manage this object.
+12-01 14:42:20.774   824  1119 W RefBase : CallStack::getCurrentInternal not linked, returning null
+12-01 14:42:20.774   824  1119 W RefBase : CallStack::logStackInternal not linked
+12-01 14:42:20.840   824 17635 W G3ACoordinator: ae_engine.cc:151: AE-related data fail to be registered in data manager.
+12-01 14:42:20.840   824 17635 W G3ACoordinator: awb_session_config_parser_lyric.cc:311: Fail to read calibration data for camera[2 0]]. Use the default LED decision in tuning!
+12-01 14:42:20.840   824 17639 W G3ACoordinator: ae_engine.cc:151: AE-related data fail to be registered in data manager.
+12-01 14:42:20.840   824 17639 W G3ACoordinator: awb_session_config_parser_lyric.cc:311: Fail to read calibration data for camera[2 5]]. Use the default LED decision in tuning!
+12-01 14:42:20.842   679  3143 W libperfmgr: Slow writing to file: '/dev/cpuset/camera-daemon-mid-high-group/cpus' with value: '4-7' took: 6 ms
+12-01 14:42:20.844   824 17639 W G3ACoordinator: awb_engine.cc:246: Failed to register data types in data manager.
+12-01 14:42:20.844   824 17656 W native  : W0000 00:00:1669927340.844528   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:20.844   824 17656 W native  : W0000 00:00:1669927340.844574   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:20.846   824 17635 W G3ACoordinator: awb_engine.cc:246: Failed to register data types in data manager.
+12-01 14:42:20.847   824 17656 W native  : W0000 00:00:1669927340.847779   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:20.847   824 17656 W native  : W0000 00:00:1669927340.847923   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:20.849   824 17656 W native  : W0000 00:00:1669927340.849759   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:20.849   824 17656 W native  : W0000 00:00:1669927340.849792   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:20.850   824 17656 W native  : W0000 00:00:1669927340.850250   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:20.850   824 17656 W native  : W0000 00:00:1669927340.850283   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:20.850   824 17656 W native  : W0000 00:00:1669927340.850605   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:20.850   824 17656 W native  : W0000 00:00:1669927340.850638   17656 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:20.868   824 17631 W Lyric   : stream_interface_controller.cc:457: Note: processing_context->consumer is being re-assigned from 13 to 8
+12-01 14:42:20.869   824 17634 W Lyric   : stream_interface_controller.cc:457: Note: processing_context->consumer is being re-assigned from 8 to 13
+12-01 14:42:20.869   824 17634 W Lyric   : stream_interface_controller.cc:457: Note: processing_context->consumer is being re-assigned from 13 to 8
+12-01 14:42:20.838 17602 17602 W lwis-slc: Stale SLC buffer free for fd 214 with ptid -1
+12-01 14:42:20.838 17602 17602 W lwis-slc: Stale SLC buffer free for fd 213 with ptid -1
+12-01 14:42:20.838 17602 17602 W lwis-slc: Stale SLC buffer free for fd 161 with ptid -1
+12-01 14:42:20.876   824 17633 W Lyric   : auto_exposure_node.cc:638: cam8_ae about to start waiting on inputs, but the inputs deadline has already passed. Request frame number: 0, ID 0. Time to inputs deadline: -1h13m25.656135468s. Time to processing deadline: -1h13m25.656135468s. Late count: 1 / 1
+12-01 14:42:20.877   824 17633 E G3ACoordinator: ae_input_parser_lyric.cc:1172: FrameSynchronizedInputs' sensor_properties is nullptr.
+12-01 14:42:20.877   824 17633 E GABC    : GABC-HistogramAnalysis: histogram_analysis.cc:403] IsValidHistogram: Invalid histogram input
+12-01 14:42:20.877   824 17633 W Lyric   : auto_exposure_node.cc:721: cam8_ae: ProcessInput is finishing after the processing deadline. Request frame number: 0, ID: 0. Time to processing deadline: -1h13m25.656915742s. Late count: 1 / 1
+12-01 14:42:20.877   824 17638 W G3ACoordinator: tuning_manager.h:67: Tuning key not found:  Usecase: 13 Sensor mode: -1 Camera position: 2 Camera lens_type: 5 Camera spectrum: -1 load default tuning  Usecase: 0 Sensor mode: -1 Camera position: 2 Camera lens_type: 5 Camera spectrum: -1
+12-01 14:42:20.880   824 17604 W Lyric   : dysco_node.cc:137: LscStats payload is missing in frame 0 due to frame drop!
+12-01 14:42:20.881   824 17633 E G3ACoordinator: ae_input_parser_lyric.cc:1172: FrameSynchronizedInputs' sensor_properties is nullptr.
+12-01 14:42:20.905   824 17630 W Lyric   : dysco_node.cc:137: LscStats payload is missing in frame 1 due to frame drop!
+12-01 14:42:20.906   824 17633 E G3ACoordinator: ae_input_parser_lyric.cc:1172: FrameSynchronizedInputs' sensor_properties is nullptr.
+12-01 14:42:20.907   824 17604 W Lyric   : dysco_node.cc:137: LscStats payload is missing in frame 2 due to frame drop!
+12-01 14:42:20.909   824 17600 W Lyric   : g3aa_pipeline.cc:916: [Bayer1][Frame 3] Skipping configuration of frames 2-2. Last received HW Frame -1 at SOF -1. Next trigger count updated from 1 to 2. Queue: [1].
+12-01 14:42:20.989   824 17633 E libgcam : [motion_lib.cc:212]: MeasureMotion: Motion could not be computed anywhere. Skip copying of motion magnitudes to outputs.
+12-01 14:42:20.990   824 17633 W libgcam : [tuning.cc:2479]: GetTuningFromParams: Device has not been calibrated for HDR+, which may severely degrade image quality!
+12-01 14:42:21.000   824 17652 W Lyric   : tnr_align_node.cc:495: Using previous gaussian pyramid from frame -1 as the reference gaussian pyramid for frame 0
+12-01 14:42:21.002   824 17652 W Lyric   : tnr_align_node.cc:293: TnrAlignNode producing alignment and noise frame drops for batch with first frame number: 0 due to error: INVALID_ARGUMENT: Failed on MSA requirements. Pyramid and alignment inputs do not match!; Error calling process on controller; Produced 1 alignment and noise frame drops since started. The corresponding image frame(s) will still be processed without denoising in TNR merge.
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003184   17651 plane.cc:283] Memory re-allocation.
+12-01 14:42:21.003   824 17651 E native  : E0000 00:00:1669927341.003246   17651 continuous_zoom_factory.cc:719] Input product ID: 25 is not supported.
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003261   17651 continuous_zoom_factory.cc:219] Input product_id (25) enum is not supported
+12-01 14:42:21.003   824 17651 E native  : E0000 00:00:1669927341.003364   17651 continuous_zoom_factory.cc:149] Input product ID: 25 is not supported.
+12-01 14:42:21.003   824 17651 E native  : E0000 00:00:1669927341.003404   17651 port_file_content.cc:50] fopen FAIL
+12-01 14:42:21.003   824 17651 E native  : E0000 00:00:1669927341.003417   17651 continuous_zoom_camera_provider.cc:221] The camera name set is not available. ContinuousZoomCameraProvider may be not initialized yet.
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003429   17651 continuous_zoom_factory.cc:241] Input product_id (25) enum is not supported
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003681   17651 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003706   17651 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003936   17651 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length x instead.
+12-01 14:42:21.003   824 17651 W native  : W0000 00:00:1669927341.003954   17651 cpi_type_utils.cc:52] Default CpiType kAllLinear is invalid. CpiType kVcmOnlyLinear is chosen for focal length y instead.
+12-01 14:42:21.004   824 17651 W native  : W0000 00:00:1669927341.004273   17651 plane.cc:283] Memory re-allocation.
+12-01 14:42:21.004   824 17651 W native  : W0000 00:00:1669927341.004360   17651 plane.cc:283] Memory re-allocation.
+12-01 14:42:21.019   824 17651 W Lyric   : node.cc:76: cam8_eaf: align_map is dropped on frame: 0
+12-01 14:42:21.020   824 17651 E native  : E0000 00:00:1669927341.020184   17651 llv_node.cc:1272] Dimension is not expected! width = 640, height = 480, stride_pixels = 640, stride_bytes = 640, width_uv = 320, height_uv = 240, stride_uv_pixels = 320, stride_uv_bytes = 640
+12-01 14:42:21.039   522   522 W RenderEngine: type=1400 audit(0.0:645): avc: denied { getattr } for name="/" dev="dmabuf" ino=1 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0
+12-01 14:42:21.092   824 17600 E Lyric   : statistics_node.cc:1015: LocalToneMappingDataV1 payload is dropped.
+12-01 14:42:21.104   824 17651 W Lyric   : tnr_merge_node.cc:1048: TNR merge uses the previous initial image frame instead of merge feedback for denoise for frame/batch: 1 in context 0xb400007bb39c54a8
+12-01 14:42:21.131   522   522 W RenderEngine: type=1400 audit(0.0:646): avc: denied { getattr } for name="/" dev="dmabuf" ino=1 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0
+12-01 14:42:21.139   824 17633 W libgcam : [gcam_ae.cc:830]: ProcessAeStats: wb_gains_in_rggb_order[0] should be >= 1.0
+12-01 14:42:21.199   522   522 W RenderEngine: type=1400 audit(0.0:647): avc: denied { getattr } for name="/" dev="dmabuf" ino=1 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0
+12-01 14:42:21.254   522   561 W TransactionTracing: Could not find layer handle 0xb400007011771ad0
+12-01 14:42:21.254   522   561 W TransactionTracing: Could not find layer handle 0xb400007011765e30
+12-01 14:42:21.254   522   561 W TransactionTracing: Could not find layer handle 0xb40000701176ee90
+12-01 14:42:21.254   522   561 W TransactionTracing: Could not find layer handle 0xb40000701175f5f0
+12-01 14:42:21.395   522   522 W RenderEngine: type=1400 audit(0.0:648): avc: denied { getattr } for name="/" dev="dmabuf" ino=1 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem permissive=0
+12-01 14:42:21.401   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:21.401   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:21.942  1053  1053 W [14:42:21.971678][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:22.058  2544  2544 W         : [14:42:22.088016][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:22.097  1053  1053 W [14:42:22.127085][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:22.834  1053  1053 W [14:42:22.863731][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:22.838     0     0 W [    C4] [14: 42:22.867691][dhd][wlan]Runtime Resume is called in dhd_prot_process_msgbuf_rxcpl.cfi_jt [bcmdhd4389]
+12-01 14:42:22.839     0     0 W [    C4] [14: 42:22.868785][dhd][wlan]Runtime Resume is called in dhd_prot_process_msgbuf_rxcpl.cfi_jt [bcmdhd4389]
+12-01 14:42:22.902  1053  1053 W [14:42:22.931997][dhd][wlan]dhd_runtimepm_state: Schedule DPC to process pending Rx packets
+12-01 14:42:22.902  1053  1053 W [14:42:22.932018][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:23.884   822   822 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 3, state: 3, device: 4
+12-01 14:42:23.889   822   822 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 4, state: 2, device: 4
+12-01 14:42:24.610  1053  1053 W [14:42:24.639706][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:25.826   824 17603 W Lyric   : sensor_generic_driver.cc:3049: DOKKAEBI read ReadSensorTemp timeout. Use last temperature.
+12-01 14:42:26.790   907   907 W         : [14:42:26.819570][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:26.830  1053  1053 W [14:42:26.860063][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:27.083  1526  1805 E ContextHubClientManager: Cannot send message to unregistered client (host endpoint ID = -28638)
+12-01 14:42:27.085  1526  1805 E ContextHubClientManager: Cannot send message to unregistered client (host endpoint ID = -28638)
+12-01 14:42:27.774  1053  1053 W [14:42:27.803796][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:29.937   907   907 W         : [14:42:29.966350][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:29.980  1053  1053 W [14:42:30.009578][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:30.119  2426  5484 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:42:30.131   824 17603 W Lyric   : sensor_generic_driver.cc:3049: DOKKAEBI read ReadSensorTemp timeout. Use last temperature.
+12-01 14:42:30.724  1526  1579 W ActivityTaskManager: Launch timeout has expired, giving up wake lock!
+12-01 14:42:30.834   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:30.819  1053  1053 W [14:42:30.849038][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:31.201   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:31.201   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:31.679 17119 17119 W google_battery: MSC_DIN chg_state=1f4100403010015 f=0x15 chg_s=Charging chg_t=Fast vchg=4100 icl=500
+12-01 14:42:31.679 17119 17119 W google_battery: MSC_DSG vbatt_idx:0->0 vt=4200000 fv_uv=4200000 vb=4100312 ib=118437 cv_cnt=0 ov_cnt=0
+12-01 14:42:33.086   907   907 W         : [14:42:33.115459][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:33.126  1053  1053 W [14:42:33.155329][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:33.273  2426  5484 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:42:34.142  2544  2544 W         : [14:42:34.171214][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:34.193  1053  1053 W [14:42:34.222413][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:34.800   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:34.922  1053  1053 W [14:42:34.951891][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:35.166  2544  2544 W         : [14:42:35.195745][dhd][wlan]Runtime Resume is called in wlan_oob_irq.cfi_jt [bcmdhd4389]
+12-01 14:42:35.209  1053  1053 W [14:42:35.238743][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:35.223     0     0 W [    C5] [14: 42:35.252325][dhd][wlan]DHCP DISCOVER[REQUEST][wlan0] [RX]
+12-01 14:42:35.337   824 17603 W Lyric   : sensor_generic_driver.cc:3049: DOKKAEBI read ReadSensorTemp timeout. Use last temperature.
+12-01 14:42:35.772  1526 13488 E FaceService: Multiple sensors found: 2
+12-01 14:42:35.772  1526 13488 W FaceService: Null provider for cancelEnrollment
+12-01 14:42:35.773   993  8230 W Camera2Client: notifyError: Received recoverable error 3 from HAL - ignoring, requestId 10000001
+12-01 14:42:35.773   993  8230 E AidlCamera3-OutputUtils: notify: Frame 297: Invalid error stream id 65605
+12-01 14:42:35.773   824 17633 W Lyric   : auto_exposure_node.cc:1124: cam8_ae: error waiting on ExposureStatistics: DEADLINE_EXCEEDED: Error waiting on Bundle payload.Status: ABORTED: Fence was aborted
+12-01 14:42:35.774   824 17633 W Lyric   : auto_exposure_node.cc:1144: cam8_ae: error waiting on MotionMeteringStats: DEADLINE_EXCEEDED: Error waiting on Bundle payload.Status: ABORTED: Fence was aborted
+12-01 14:42:35.774  1526 13488 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2409401)
+12-01 14:42:35.774   824 17633 E GABC    : GABC-HistogramAnalysis: histogram_analysis.cc:403] IsValidHistogram: Invalid histogram input
+12-01 14:42:35.774   824 17633 E GABC    : GABC-GcamAeAdapter: gcam_ae_adapter.cc:450] RunGcamAlgorithm: bayer input is invalid
+12-01 14:42:35.774   824 17652 W Lyric   : tnr_align_node.cc:293: TnrAlignNode producing alignment and noise frame drops for batch with first frame number: 293 due to error: FAILED_PRECONDITION: TNR stats of the frame is dropped.; Produced 2 alignment and noise frame drops since started. The corresponding image frame(s) will still be processed without denoising in TNR merge.
+12-01 14:42:35.774   824 17603 W Lyric   : sensor_node.cc:390: SensorNode producing drops due to frame request drop on frame 296
+12-01 14:42:35.745   824   824 W lwis-csi: Failed to cancel transaction id 0x3787 (-2)
+12-01 14:42:35.745   824   824 W lwis-csi: Failed to cancel transaction id 0x3789 (-2)
+12-01 14:42:35.745   824   824 W lwis-ipp: Failed to cancel transaction id 0x400e (-2)
+12-01 14:42:35.745   824   824 W lwis-ipp: Failed to cancel transaction id 0x4009 (-2)
+12-01 14:42:35.745   824   824 W lwis-ipp: Failed to cancel transaction id 0x400e (-2)
+12-01 14:42:35.745   824   824 W lwis-ipp: Failed to cancel transaction id 0x4009 (-2)
+12-01 14:42:35.775   824 17651 E Lyric   : gtnr_merge_driver.cc:1282: Error! TNR sharpener output error in sync mode due to CANCELLED: gtnr frame drop due to flush operation Input current image is 0xb400007bd3ae3e08 from context 0xb400007d0394ef90
+12-01 14:42:35.775   824 17651 W Lyric   : tnr_merge_node.cc:444: TnrMergeNode producing frame drops from context 0xb400007bb39c54a8 starting at frame number: 292 due to error: CANCELLED: gtnr frame drop due to flush operation; Error calling process on controller in context 0xb400007bb39c54a8
+12-01 14:42:35.776   824 17648 W Lyric   : tnr_merge_node.cc:444: TnrMergeNode producing frame drops from context 0xb400007bb39c54a8 starting at frame number: 293 due to error: INVALID_ARGUMENT: TNR merge tuning frame is dropped.; TNR merge failed to get tuning data in context 0xb400007bb39c54a8
+12-01 14:42:35.776   824 17630 W Lyric   : tuning_node.cc:320: TuningNode producing frame drop because request frame is drop
+12-01 14:42:35.776   824 17603 E Lyric   : dysco_node.cc:78: tuning_point payload is missing due to frame drop!
+12-01 14:42:35.776   824 17603 W Lyric   : dysco_node.cc:137: LscStats payload is missing in frame 296 due to frame drop!
+12-01 14:42:35.776   824 17643 W Lyric   : mesh_warp_node.cc:149: cam8_preview_mesh_warp Request frame is drop, drop all output for frame 292
+12-01 14:42:35.776   824 17603 E Lyric   : dysco_controller_impl.cc:395: One of InputData fields is nullptr.
+12-01 14:42:35.776   824 17648 W Lyric   : tnr_merge_node.cc:444: TnrMergeNode producing frame drops from context 0xb400007bb39c54a8 starting at frame number: 294 due to error: INVALID_ARGUMENT: TNR merge tuning frame is dropped.; TNR merge failed to get tuning data in context 0xb400007bb39c54a8
+12-01 14:42:35.776   824 17646 W Lyric   : tnr_merge_node.cc:444: TnrMergeNode producing frame drops from context 0xb400007bb39c54a8 starting at frame number: 295 due to error: INVALID_ARGUMENT: TNR merge tuning frame is dropped.; TNR merge failed to get tuning data in context 0xb400007bb39c54a8
+12-01 14:42:35.776   824 17601 W Lyric   : scaler_node.cc:231: cam8_preview_scaler Input is drop, drop all outputs for frame 292
+12-01 14:42:35.776   824 17652 W Lyric   : mesh_warp_node.cc:149: cam8_preview_mesh_warp Request frame is drop, drop all output for frame 293
+12-01 14:42:35.776   824 17630 W Lyric   : statistics_node.cc:360: cam8_statistics producing a frame drop for frame 296:INVALID_ARGUMENT: Sensor image input is dropped.
+12-01 14:42:35.776   824 17601 W Lyric   : scaler_node.cc:407: FAILED_PRECONDITION: cam8_preview_scaler producing drops as all input frames are dropped
+12-01 14:42:35.776   824 17643 W Lyric   : mesh_warp_node.cc:149: cam8_preview_mesh_warp Request frame is drop, drop all output for frame 294
+12-01 14:42:35.776   824 17652 W Lyric   : mesh_warp_node.cc:149: cam8_preview_mesh_warp Request frame is drop, drop all output for frame 295
+12-01 14:42:35.776   993  5781 W Camera2Client: notifyError: Received recoverable error 3 from HAL - ignoring, requestId 10000001
+12-01 14:42:35.777   824 17603 W Lyric   : camera_device_session_manager_impl.cc:1246: Current request ID: 292, is not greater than previous: 297 for stream ID: 65613
+12-01 14:42:35.777   993  5781 E AidlCamera3-OutputUtils: notify: Frame 292: Invalid error stream id 65605
+12-01 14:42:35.777   993  5781 W Camera2Client: notifyError: Received recoverable error 3 from HAL - ignoring, requestId 10000001
+12-01 14:42:35.777   824 17631 W Lyric   : camera_device_session_manager_impl.cc:1246: Current request ID: 292, is not greater than previous: 297 for stream ID: 65611
+12-01 14:42:35.778   824 17600 W Lyric   : camera_device_session_manager_impl.cc:1246: Current request ID: 292, is not greater than previous: 297 for stream ID: 65607
+12-01 14:42:35.778   824 17651 W Lyric   : tnr_merge_node.cc:444: TnrMergeNode producing frame drops from context 0xb400007bb39c54a8 starting at frame number: 296 due to error: INVALID_ARGUMENT: TNR merge tuning frame is dropped.; TNR merge failed to get tuning data in context 0xb400007bb39c54a8
+12-01 14:42:35.779   824 17652 W Lyric   : mesh_warp_node.cc:149: cam8_preview_mesh_warp Request frame is drop, drop all output for frame 296
+12-01 14:42:35.779   993  5781 E AidlCamera3-OutputUtils: notify: Frame 293: Invalid error stream id 65605
+12-01 14:42:35.779   993  1692 W Camera2Client: notifyError: Received recoverable error 3 from HAL - ignoring, requestId 10000001
+12-01 14:42:35.779   993  1692 E AidlCamera3-OutputUtils: notify: Frame 294: Invalid error stream id 65605
+12-01 14:42:35.780   993  5781 E AidlCamera3-OutputUtils: notify: Frame 295: Invalid error stream id 65605
+12-01 14:42:35.781   993  1692 E AidlCamera3-OutputUtils: notify: Frame 296: Invalid error stream id 65605
+12-01 14:42:35.782   993  5781 W Camera2Client: notifyError: Received recoverable error 3 from HAL - ignoring, requestId 10000001
+12-01 14:42:35.782   824 17674 E GCH_PendingRequestsTracker: TrackReturnedAcquiredBuffers: stream 0 should not have any pending acquired buffers.
+12-01 14:42:35.782   993  1692 W Camera2Client: notifyError: Received recoverable error 3 from HAL - ignoring, requestId 10000001
+12-01 14:42:35.782   824 17674 E GCH_PendingRequestsTracker: TrackReturnedAcquiredBuffers: stream 2 should not have any pending acquired buffers.
+12-01 14:42:35.770   824   824 W lwis-ipp: Failed to cancel transaction id 0x400e (-2)
+12-01 14:42:35.770   824   824 W lwis-ipp: Failed to cancel transaction id 0x400e (-2)
+12-01 14:42:35.830   824 17602 W Lyric   : g3aa_pipeline.cc:443: [Bayer1][Frame 297] Canceling transaction id 6617 for shadow 1: [FAILED]
+12-01 14:42:35.801 17602 17602 W lwis-g3aa: Failed to cancel transaction id 0x19d9 (-2)
+12-01 14:42:35.852   824 17668 W Lyric   : g3aa_pipeline.cc:2152: [Bayer1][Frame 297][SOF 297][ VALID ] frame_id: 296:[297], Timestamp: 4420631195859, HW was last programmed at SOF of Frame 296 Queue: [297].
+12-01 14:42:35.838  1053  1053 W [14:42:35.867725][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:35.892   824 17602 W Lyric   : g3aa_driver.cc:363: DisconnectFromPdp() function is called for Sysreg.
+12-01 14:42:35.892   824 17602 W Lyric   : g3aa_driver.cc:376: G3AA disconnected from PDP via Sysreg. G3AA will no longer receive data from PDP.
+12-01 14:42:35.903   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:35.916   824   824 E Lyric   : camera_device_session_hwl_impl.cc:1346: WaitAndStopLyricGraphs: Failed to session_manager->StopProcessingGraph(), FAILED_PRECONDITION: graph not initialized
+12-01 14:42:35.916   824   824 E Lyric   : camera_device_session_hwl_impl.cc:715: DestroyPipelines: WaitAndStopLyricGraphs() failed!, errno: -19
+12-01 14:42:35.916   824   824 E Lyric   : camera_device_session_hwl_impl.cc:724: DestroyPipelines: Remove camera 1 from ActiveCameraDeviceTracker failed!, errno: -22
+12-01 14:42:35.920   824   824 W Lyric   : device_context_base.cc:322: NotifyCaptureSessionClose: No OisController found for physical camera Front. Status: NOT_FOUND: Failed to find controller by type and camera id(Front); failed to get controller with ID: optical image stabilization controller for camera: Front from device_context
+12-01 14:42:35.920   824   824 W Lyric   : device_context_base.cc:322: NotifyCaptureSessionClose: No OisController found for physical camera FrontVirtual. Status: NOT_FOUND: Failed to find controller by type and camera id(FrontVirtual); failed to get controller with ID: optical image stabilization controller for camera: FrontVirtual from device_context
+12-01 14:42:35.924   873   932 W usf_sensor_hal: No sensor found to handle samples from client ID 65540.
+12-01 14:42:35.925   824   824 W Lyric   : graph_runner.cc:179: GraphRunner::StopGraph(1) called on a graph that is not running.
+12-01 14:42:35.931   679  3143 W libperfmgr: Slow writing to file: '/dev/cpuset/camera-daemon/cpus' with value: '0-7' took: 6 ms
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: Exception in result (dur:6)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: java.lang.Exception: Camera isn't opened
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at org.pixelexperience.faceunlock.camera.callables.CloseCameraCallable.call(CloseCameraCallable.java:24)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at org.pixelexperience.faceunlock.camera.callables.CameraCallable.run(CameraCallable.java:44)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at org.pixelexperience.faceunlock.camera.CameraService.lambda$new$0(CameraService.java:34)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at org.pixelexperience.faceunlock.camera.CameraService$$ExternalSyntheticLambda0.handleMessage(Unknown Source:0)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at android.os.Looper.loop(Looper.java:288)
+12-01 14:42:35.937  3622  3622 W CloseCameraCallable: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+12-01 14:42:36.236   907   907 W         : [14:42:36.265812][dhd][wlan]Runtime Resume is called in dhd_wl_ioctl.cfi_jt [bcmdhd4389]
+12-01 14:42:36.297  1526  4577 W InputManager-JNI: Input channel object '998fa3e org.pixelexperience.faceunlock/org.pixelexperience.faceunlock.FaceEnrollActivity (client)' was disposed without first being removed with the input manager!
+12-01 14:42:36.275  1053  1053 W [14:42:36.304753][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:36.418  2426  5484 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:42:37.222  1053  1053 W [14:42:37.252176][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:38.225   822  3205 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 1, state: 2, device: 4
+12-01 14:42:38.232  1526 13488 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{5555086 u0 org.pixelexperience.faceunlock/.FaceTryAgain} t57 f}}
+12-01 14:42:38.234   822  3205 W audio_hw_35l41: cs35l41_amp_common_event: ret: 0, event: 2, state: 3, device: 4
+12-01 14:42:38.247   822  1352 W audio_hw_stuning: receive_response_data:invalid rx_sz 0
+12-01 14:42:38.279   522   561 W TransactionTracing: Could not find layer handle 0xb400007011761210
+12-01 14:42:38.279   522   561 W TransactionTracing: Could not find layer handle 0xb400007011765e30
+12-01 14:42:38.332   522   561 W TransactionTracing: Could not find layer handle 0xb400007011764b70
+12-01 14:42:38.776  1526 13488 W InputManager-JNI: Input channel object '59ff8e0 org.pixelexperience.faceunlock/org.pixelexperience.faceunlock.FaceTryAgain (client)' was disposed without first being removed with the input manager!
+12-01 14:42:38.787   522   561 W TransactionTracing: Could not find layer handle 0xb40000701175a9d0
+12-01 14:42:38.933   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:38.933   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:38.950   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:38.950   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:38.930 17381 17381 W         : [14:42:38.959340][dhd][wlan]Runtime Resume is called in dhd_start_xmit.cfi_jt [bcmdhd4389]
+12-01 14:42:38.969  1053  1053 W [14:42:38.998752][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:39.512  2426  5478 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+12-01 14:42:39.628  2212  2359 W TileUtils: Found com.android.systemui.tuner.TunerActivity for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } missing metadata 
+12-01 14:42:39.644   522   561 W TransactionTracing: Could not find layer handle 0xb400007011768890
+12-01 14:42:39.644   522   561 W TransactionTracing: Could not find layer handle 0xb4000070117704b0
+12-01 14:42:39.753   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:39.753   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:39.753   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:39.753   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:39.753   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:39.827   522   561 W TransactionTracing: Could not find layer id -1
+12-01 14:42:40.128   522   561 W TransactionTracing: Could not find layer handle 0xb4000070117596b0
+12-01 14:42:40.137  1526 13488 W InputManager-JNI: Input channel object '8274698 org.pixelexperience.faceunlock/org.pixelexperience.faceunlock.SetupFaceIntroActivity (client)' was disposed without first being removed with the input manager!
+12-01 14:42:40.146   522   561 W TransactionTracing: Could not find layer handle 0xb40000701176b4d0
+12-01 14:42:40.146   522   561 W TransactionTracing: Could not find layer handle 0xb400007011765ad0
+12-01 14:42:40.234  1053  1053 W [14:42:40.263845][dhd][wlan]dhd_runtimepm_state: DHD Idle state!! -  idletime :5, wdtick :100, PS mode off dur: 0 sec
+12-01 14:42:41.383  1840  1905 W NotificationEntryMgr: While running New Pipeline: updateNotifications(reason=NotificationLockscreenUserManager.updatePublicMode)
+12-01 14:42:41.406  1526  1580 W SurfaceControl: Invalid layer stack -1
+12-01 14:42:41.438  1526 13488 W ProcessStats: Tracking association SourceState{de90e53 com.google.android.apps.security.securityhub/10204 Top #17456} whose proc state 1 is better than process ProcessState{c62f4e8 com.google.android.gms.persistent/10183 pkg=com.google.android.gms} proc state 2 (10 skipped)
+12-01 14:42:41.455 15892 15892 W         : [14:42:41.485111][dhd][wlan]Runtime Resume is called in dhd_start_xmit.cfi_jt [bcmdhd4389]
+12-01 14:42:41.488  1526  4577 W InputManager-JNI: Input channel object '557037a com.android.settings/com.android.settings.Settings$CombinedBiometricSettingsActivity (client)' was disposed without first being removed with the input manager!
+12-01 14:42:41.508  2212  2359 W TileUtils: Found com.android.systemui.tuner.TunerActivity for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } missing metadata 
+12-01 14:42:41.495  1053  1053 W [14:42:41.525112][dhd][wlan]dhd_runtimepm_state: runtime resume ended
+12-01 14:42:41.554  1840  1905 W NotificationEntryMgr: While running New Pipeline: updateNotifications(reason=onDozingChanged)
+12-01 14:42:41.560  1840  1905 W NotificationEntryMgr: While running New Pipeline: updateNotifications(reason=NotificationLockscreenUserManager.updatePublicMode)
+12-01 14:42:41.563  1840  1905 W NotificationEntryMgr: While running New Pipeline: updateNotifications(reason=CentralSurfaces state changed)
+12-01 14:42:41.601  1840  1840 W View    : requestLayout() improperly called by com.android.keyguard.CarrierText{40a8159 V.ED..... ......ID 70,0-485,130 #7f0b0345 app:id/keyguard_carrier_text} during layout: running second layout pass
+12-01 14:42:41.641  1526  1526 W AlarmManager: Unrecognized alarm listener com.android.server.locksettings.LockSettingsStrongAuth$NonStrongBiometricIdleTimeoutAlarmListener@16b40c6
+12-01 14:42:41.661   522   561 W TransactionTracing: Could not find layer handle 0xb40000701176eb90
+12-01 14:42:41.661   522   561 W TransactionTracing: Could not find layer handle 0xb40000701176a510
+12-01 14:42:41.661  1840  2662 E ThemeUtils: View class com.airbnb.lottie.LottieAnimationView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+12-01 14:42:41.662  1840  2662 E ThemeUtils: View class com.airbnb.lottie.LottieAnimationView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+12-01 14:42:41.665  1840  1840 W BcSmartspaceCard: No title view to update
+12-01 14:42:41.646     0     0 E         : [    C5] exynos5-hsi2c 10970000.hsi2c: HSI2C Error Interrupt occurred(IS:0x00000400, TR:0x00080001)
+12-01 14:42:41.646     0     0 E         : [    C5] exynos5-hsi2c 10970000.hsi2c: HSI2C NO ACK occurred
+12-01 14:42:41.646  3907  3907 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+12-01 14:42:41.646  3907  3907 E st21nfc i2c-st21nfc: st21nfc_dev_write : i2c_master_send returned -6
+12-01 14:42:41.685  3477  3477 W libnfc_nci: [WARNING:NativeNfcTag.cpp(879)] nativeNfcTag_doDisconnect: tag already deactivated
+12-01 14:42:41.699  3743  3743 E IUHostManager: getDevicesToSend [messages]
+12-01 14:42:41.699  3743  3743 E IUHostManager: we do not have connected devices
+12-01 14:42:41.699  3743  3743 E IUHostManager: Notification for application [messages] is not found
+12-01 14:42:41.700  1526  4547 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.samsung.accessory.saproviders.SCREEN_OFF flg=0x10 } to com.samsung.android.gearrplugin/com.samsung.accessory.saproviders.samessage.receiver.SAOtherIntentReceiver
+12-01 14:42:41.709   522   561 W TransactionTracing: Could not find layer handle 0xb40000701176f730
+12-01 14:42:41.682  2638  2638 W [14:42:41.712007][dhd][wlan]wl_android_priv_cmd: Android private cmd "SETSUSPENDMODE 1" on wlan0
+12-01 14:42:41.682  2638  2638 W [14:42:41.712063][dhd][wlan]dhd_set_suspend: force extra Suspend setting
+12-01 14:42:41.722  3743  3743 W Connection4R: ConnectionController.handleEventScreenStateChanged() : last connected device is null
+12-01 14:42:41.723  3743  3743 E Notification4R_GO: EventHandler.CommonBR::onReceive-isSocketAvailable: false
+12-01 14:42:41.707  2638  2638 W [14:42:41.737193][cfg80211][wlan] wl_cfg80211_soft_suspend: enter suspend
+12-01 14:42:41.708  2638  2638 W [14:42:41.737245][cfg80211][wlan] wl_apply_per_sta_conn_suspend_settings: apply sta settings for suspend:1
+12-01 14:42:41.744  2426  2426 E .gms.persistent: Invalid ID 0x00000000.
+12-01 14:42:41.744  2426  2426 W ChimeraUtils: Module com.google.android.gms.cast missing resource cast_module_display_name(0)
+12-01 14:42:41.714  2638  2638 W [14:42:41.743888][cfg80211][wlan] wl_get_suspend_bcn_li_dtim: beacon=100 bcn_li_dtim=4 DTIM=2 Listen=10
+12-01 14:42:41.748  2426  2426 W MediaRouter: Ignoring invalid provider descriptor: null
+12-01 14:42:41.758  2426 17377 W GuestModeDeviceProber: setFilterCriteria
